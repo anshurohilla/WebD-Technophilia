@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>form</title>
+        <style>
+            marquee{
+                color: coral;
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            label{
+                color: blue;
+                font-size: 20px;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-style: italic;
+            }
+            /*anshu*/
+
+            img{
+                width:400px;
+                margin-left: 50%;
+                margin-top:-20%;
+                border:darkblue ;
+                border-style: solid;
+                border-width: 20px;
+                border-radius: 10%;
+            }
+
+            body{
+                background-image: linear-gradient(grey,white);
+            }
+
+            .gen{
+                color:blueviolet !important;
+            }
+
+            #gender-m{
+                color: chocolate;
+                font-size: 40px;
+            }
+
+            #pad{
+                color: aquamarine;
+                background-color: blueviolet;
+                padding: 50px;
+                width: 40%;
+                border: red;
+                border-style: dotted;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <marquee direction="right">ANSHU</marquee>
+        <form action="mailto:rohanshu2015@gmail.com" method="post">
+
+            Name:
+            <input type="text" name="Name" placeholder="Enter name" required>
+
+            <br><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male" id="gender-m">
+            <label for="gender-m" class="gen" id="gender-m">Male</label>
+            <input type="radio" name="gender" value="female" id="gender-f">
+            <label for="gender-f" class="gen">Female</label>
+            <input type="radio" name="gender" value="others" id="gender-o">
+            <label for="gender-o" class="gen">Others</label>
+            <br><br>
+
+            Skills:<br>
+            <input type="checkbox" name="skills" value="HTML" id="s1">
+            <label for="s1">HTML</label><br>
+            <input type="checkbox" name="skills" value="C++" id="s2">
+            <label for="s2">C++</label><br>
+            <input type="checkbox" name="skills" value="JS" id="s3">
+            <label for="s3">JS</label><br><br>
+
+            List of Students:
+            <select name="list of students">
+                <option>--select any one--</option>
+                <option>Anshu</option>
+                <option>Shri</option>
+                <option selected>Poo</option>
+            </select><br><br>
+
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        
+        </form>
+        <br><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfkfzgF94YC4g8tOKY-G-NS8EdqAoi-05KSQ&usqp=CAU">
+
+        <div id="pad">
+            hii
+        </div>
+
+    </body>
+</html>
