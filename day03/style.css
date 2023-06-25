@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+
+.lorem{
+    background-color:yellowgreen;
+    width:50em;
+
+}
+
+.lorem > pre{
+    cursor: grab;
+
+}
+
+.lorem >pre:hover{
+    color: crimson;
+}

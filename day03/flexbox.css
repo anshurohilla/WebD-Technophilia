@@ -1,0 +1,23 @@
+
+body{
+    background-color: coral;
+}
+
+.parent > div{
+    color: red;
+    background-color: aquamarine;
+    width:100px;
+    margin:10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+}
+.parent{
+    background-color: black;
+    display:flex;
+    flex-direction: row;;
+}
+
+#five{
+    flex-grow: 3;
+}
